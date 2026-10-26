@@ -1,1 +1,3 @@
 # Colas-pedidos-1.2
+
+El código implementa un sistema de gestión de pedidos bajo el principio FIFO utilizando una cola basada en listas enlazadas dentro de un único archivo estructurado con la interfaz abstracta QueueInterface, la clase Order para definir las características del cliente y su cantidad, la clase Node para los enlaces, la clase principal Queue —la cual gestiona los apuntadores top y tail e incluye los métodos size, isEmpty, front, enqueue, dequeue, printInfo y getNth para manipular, recorrer y consultar los elementos—, y finalmente la clase TestQueue con su método main, encargada de ejecutar la simulación completa creando pedidos, probando cada operación de la estructura y midiendo el tiempo exacto de ejecución en la terminal.
